@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+          margin:0px;
+          padding:0px;
+      }
+      #box{
+          width:40%;
+          height:200px;
+          border:0px solid black;
+          margin:auto;
+          margin-bottom:30px ;
+          text-align:center;
+      }
+      #box > h1{
+          font-size: 50px;
+
+        
+      }
+      #box > p {
+          margin-top: 20px;
+          font-size: 22px;
+          color:grey;
+          line-height: 30px;
+      }
+      #container{
+          width:80%;
+          height:auto;
+          border:0px solid red;
+          margin:auto;
+          margin-top: 100px;
+          display:flex;
+        }
+        .cart{
+            width:30%;
+            height:100%;
+            border:0px solid green;
+            margin:auto;
+            text-align:center;
+        }
+        .cart > h3{
+           
+        }
+        .cart > h4{
+            text-align:center;
+            color:aqua;
+            margin-top: 10px;
+            margin-bottom:20px ;
+        }
+        .cart > p{
+            text-align:center;
+            color:grey;
+        }
+        .cart >p{
+            padding: 0px 30px 0px 30px;
+
+        }
+        botton{
+            border:1px soilid rgb(9, 152, 177);
+            background-color: white;
+            color:rgb(24, 186, 226);
+            font-size: 30px;
+            border-radius: 10px;
+            padding: 20px 40px 20px 40px;
+            margin-top:30px;
+            margin-bottom: 40px;
+            font-weight: bold; 
+
+        }
+        
+       
+    </style>
+
+</head>
+<body>
+  <div id="box">
+     <h1>Choose a plan that right for your business</h1>
+     <p> We collect reviews from our user so you can an honest opinion of what 
+      an experience with our website are really like!    
+     </p>
+  </div>
+  <div id="container">
+      <div class="cart">
+         <h3>Starter Plan</h3>
+         <h4>Free</h4>
+         <p> We collect reviews from our user so you can an honest opinion of what 
+          an experience with our website are really like.</p>
+          <botton>Start Now</botton>
+        </div>
+        <div class="cart">
+            <h3>Business Plan</h3>
+            <h4>$39.00</h4>
+            <p> We collect reviews from our user so you can an honest opinion of what 
+             an experience with our website are really like.</p>
+             <botton>Start Now</botton>
+        </div>
+        <div class="cart" >
+            <h3>Premium Plan</h3>
+            <h4>$59.00</h4>
+             <p> We collect reviews from our user so you can an honest opinion of what 
+                an experience with our website are really like.</p>
+             <botton>Start Now</botton>
+        </div>
+     </div>
+</body>
+</html>
